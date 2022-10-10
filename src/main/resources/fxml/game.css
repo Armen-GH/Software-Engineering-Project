@@ -1,0 +1,32 @@
+.root {
+    -fx-font-size: 18;
+}
+
+#grid{
+    -fx-border-width: 0.5em;
+    -fx-border-color: black;
+}
+
+.square{
+    -fx-border-width: 0.05em;
+    -fx-border-color: gray;
+}
+
+.square.rightWall{
+    -fx-border-width: 0.05em 0.3em 0.05em 0.05em;
+    -fx-border-color: gray black gray gray;
+}
+
+.square.bottomWall{
+    -fx-border-width: 0.05em 0.05em 0.3em 0.05em;
+    -fx-border-color: gray gray black gray;
+}
+
+.square.rightBottomWall{
+    -fx-border-width: 0.05em 0.3em 0.3em 0.05em;
+    -fx-border-color: gray black black gray;
+}
+
+.square:hover{
+    -fx-background-color: beige;
+}
